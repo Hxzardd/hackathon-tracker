@@ -8,7 +8,6 @@ A Flask-based web application designed for students of VIT to track hackathon pa
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
-- [Folder Structure](#folder-structure)
 - [Contributors](#contributors)
 - [License](#license)
 
@@ -32,26 +31,6 @@ This project is particularly designed for VIT students who want to track and dis
    ```bash
    git clone https://github.com/Hxzardd/hackathon-tracker.git
 
-## Folder Structure
-
-hackathon-tracker/
-│
-├── backend/             
-│   ├── app.py              # Main Flask app
-│   ├── database.db         # SQLite database
-│   ├── dashboard.py        # Backend logic for dashboard
-│   ├── home.py             # Backend logic for home page
-│   ├── index.py            # Main index logic
-│   ├── login.py            # Backend logic for user login
-│   ├── logout.py           # Backend logic for user logout
-│   ├── models.py           # Database models
-│   └── register.py         # Backend logic for user registration
-│
-└── frontend/           
-    ├── dashboard.html      # Dashboard page
-    ├── home.html           # Home page
-    ├── login.html          # Login page
-    └── register.html       # Registration page
 
 
 
