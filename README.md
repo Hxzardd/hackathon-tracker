@@ -33,7 +33,6 @@ This project is particularly designed for VIT students who want to track and dis
    git clone https://github.com/Hxzardd/hackathon-tracker.git
 
 ## Folder Structure
-## Folder Structure
 
 hackathon-tracker/
 │
@@ -53,5 +52,6 @@ hackathon-tracker/
     ├── home.html           # Home page
     ├── login.html          # Login page
     └── register.html       # Registration page
+
 
 
