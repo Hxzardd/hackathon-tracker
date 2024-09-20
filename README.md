@@ -31,3 +31,27 @@ This project is particularly designed for VIT students who want to track and dis
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/Hxzardd/hackathon-tracker.git
+
+## Folder Structure
+## Folder Structure
+
+hackathon-tracker/
+│
+├── backend/             
+│   ├── app.py              # Main Flask app
+│   ├── database.db         # SQLite database
+│   ├── dashboard.py        # Backend logic for dashboard
+│   ├── home.py             # Backend logic for home page
+│   ├── index.py            # Main index logic
+│   ├── login.py            # Backend logic for user login
+│   ├── logout.py           # Backend logic for user logout
+│   ├── models.py           # Database models
+│   └── register.py         # Backend logic for user registration
+│
+└── frontend/           
+    ├── dashboard.html      # Dashboard page
+    ├── home.html           # Home page
+    ├── login.html          # Login page
+    └── register.html       # Registration page
+
+
