@@ -9,6 +9,7 @@ from login import login
 from logout import logout
 from register import register
 from home import home
+from dashboard import dashboard  # Import the dashboard blueprint
 
 app = Flask(__name__, static_folder='../frontend/static')
 
@@ -20,11 +21,13 @@ login_manager.init_app(app)
 db.init_app(app)
 app.app_context().push()
 
+# Registering the blueprints
 app.register_blueprint(index)
 app.register_blueprint(login)
 app.register_blueprint(logout)
 app.register_blueprint(register)
 app.register_blueprint(home)
+app.register_blueprint(dashboard)  # Register the dashboard blueprint
 
 @login_manager.user_loader
 def load_user(user_id):
