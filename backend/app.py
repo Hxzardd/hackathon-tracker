@@ -1,6 +1,7 @@
 from flask import Flask
 import sqlalchemy
 from flask_login import LoginManager
+import logging
 
 from models import db, Users
 
@@ -33,5 +34,13 @@ app.register_blueprint(dashboard)
 def load_user(user_id):
     return Users.query.get(int(user_id))
 
+if __name__ != "__main__":
+    gunicorn_logger = logging.getLogger('gunicorn.error')
+    app.logger.handlers = gunicorn_logger.handlers
+    app.logger.setLevel(gunicorn_logger.level)
+
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=3000)
+    app.run()
+
+
+
