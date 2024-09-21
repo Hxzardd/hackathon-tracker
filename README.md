@@ -1,3 +1,11 @@
+# Work done and left
+
+- Worked on the backend using Flask, also a database to store the registration/login information
+- Worked on frontened with the help of Chat GPT
+- Created basic registration page, login page, landing home page, dashboard page
+- Created a figma design for registration and login page but couldn't implement it inside the code
+- Main functions are stil to be made inside the landing page and dashboard page which couldn't be done due to lack of experience and time and man powers
+
 # Hackathon Tracker
 
 A Flask-based web application designed for students of VIT to track hackathon participation, showcase achievements, and help solo users find teams. The platform allows users to register, log in, and view personal or other users' hackathon records.
@@ -6,10 +14,6 @@ A Flask-based web application designed for students of VIT to track hackathon pa
 - [Project Description](#project-description)
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Technologies Used](#technologies-used)
-- [Contributors](#contributors)
-- [License](#license)
 
 ## Project Description
 Hackathon Tracker is a student-focused platform where users can:
