@@ -4,7 +4,7 @@
 - Worked on frontened with the help of Chat GPT
 - Created basic registration page, login page, landing home page, dashboard page
 - Tried deploying it on Vercel but couldn't. Still need to figure that out.
-- Created a figma design for registration and login page but couldn't implement it inside the code
+- Created a figma design for registration and login page but couldn't implement it inside the code. Link: https://www.figma.com/design/HMxPx89kLkSUiRdhC8tjD0/login_page-(Community)?node-id=2-24&node-type=frame&t=hh8yiwi9s2ysDn9R-0
 - Main functions are stil to be made inside the landing page and dashboard page which couldn't be done due to lack of experience and time and man powers
 
 # Hackathon Tracker
